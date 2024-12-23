@@ -10,7 +10,7 @@
 | 22/1039497  |  Márcio Henrique de Sousa Costa |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Foram realizadas 4 questões 2 difíceis e 2 médias e cada uma tem sua página especifica e vídeo de explicação.
 
 ## Screenshots
 
