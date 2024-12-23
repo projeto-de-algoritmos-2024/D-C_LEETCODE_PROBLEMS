@@ -46,3 +46,7 @@ int mergeAndFindMax(int* nums, int left, int mid, int right) {
 
     return left_sum + right_sum;
 }
+
+int maxSubArray(int* nums, int numsSize) {
+    return maxSubArrayRecursive(nums, 0, numsSize - 1);
+}
