@@ -2,6 +2,15 @@
 #include <stdlib.h>
 
 
+int min(int a, int b) {
+    return (a < b) ? a : b;
+}
+
+int max(int a, int b) {
+    return (a > b) ? a : b;
+}
+
+
 int findKth(int* nums1, int size1, int* nums2, int size2, int k) {
     if (size1 > size2) {
         return findKth(nums2, size2, nums1, size1, k);
