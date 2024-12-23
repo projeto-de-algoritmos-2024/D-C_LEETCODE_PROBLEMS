@@ -23,6 +23,14 @@ Questão 23 (Difícil) - link [aqui](Questões/23-MesclarListas.md).
 
 Questão 148 (Média) - link [aqui](Questões/148-OrdenarLista.md).
 
+<div align="center"><img src= "https://raw.githubusercontent.com/projeto-de-algoritmos-2024/D-C_LEETCODE_PROBLEMS/refs/heads/main/Images/4.png?raw=true"/></div>
+
+Questão 4 (Difícil) - link [aqui](Questões/4-MedianOfTwoSorted.md).
+
+<div align="center"><img src= "https://raw.githubusercontent.com/projeto-de-algoritmos-2024/D-C_LEETCODE_PROBLEMS/refs/heads/main/Images/53.png?raw=true"/></div>
+
+Questão 53 (Média) - link [aqui](Questões/53-MaximumSubarray.md).
+
 
 ## Instalação 
 **Linguagem**: C<br>
