@@ -1,3 +1,24 @@
+# 148. Median of two sorted Arrays- Difícil
+
+<div align="center"><img src= "https://raw.githubusercontent.com/projeto-de-algoritmos-2024/D-C_LEETCODE_PROBLEMS/refs/heads/main/Images/23.png?raw=true"/></div>
+
+---
+
+## Vídeo Explicação
+
+https://www.youtube.com/watch?v=U7iuxcrVWV0
+
+---
+
+## Link Questão
+
+https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+---
+
+## **Código**
+
+```C
 #include <stdio.h>
 #include <limits.h>
 
@@ -50,3 +71,4 @@ int mergeAndFindMax(int* nums, int left, int mid, int right) {
 int maxSubArray(int* nums, int numsSize) {
     return maxSubArrayRecursive(nums, 0, numsSize - 1);
 }
+```

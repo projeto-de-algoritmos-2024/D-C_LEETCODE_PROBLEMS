@@ -1,3 +1,24 @@
+# 148. Maximum Subarray- Médio
+
+<div align="center"><img src= "https://raw.githubusercontent.com/projeto-de-algoritmos-2024/D-C_LEETCODE_PROBLEMS/refs/heads/main/Images/23.png?raw=true"/></div>
+
+---
+
+## Vídeo Explicação
+
+https://www.youtube.com/watch?v=jnyAVdNqCCM
+
+---
+
+## Link Questão
+
+https://leetcode.com/problems/maximum-subarray/
+
+---
+
+## **Código**
+
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -50,3 +71,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
         return (left + right) / 2.0;
     }
 }
+```
