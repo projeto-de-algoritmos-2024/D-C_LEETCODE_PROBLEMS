@@ -23,3 +23,26 @@ int maxSubArrayRecursive(int* nums, int left, int right) {
     else
         return cross_max;
 }
+
+
+int mergeAndFindMax(int* nums, int left, int mid, int right) {
+    int left_sum = INT_MIN, right_sum = INT_MIN;
+    int sum = 0;
+
+    // Soma máxima no lado esquerdo
+    for (int i = mid; i >= left; i--) {
+        sum += nums[i];
+        if (sum > left_sum)
+            left_sum = sum;
+    }
+
+    sum = 0;
+    // Soma máxima no lado direito
+    for (int i = mid + 1; i <= right; i++) {
+        sum += nums[i];
+        if (sum > right_sum)
+            right_sum = sum;
+    }
+
+    return left_sum + right_sum;
+}
