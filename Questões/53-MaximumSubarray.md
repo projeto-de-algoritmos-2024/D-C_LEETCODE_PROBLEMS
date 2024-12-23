@@ -1,4 +1,4 @@
-# 148. Maximum Subarray- Médio
+# 53. Maximum Subarray- Médio
 
 <div align="center"><img src= "https://raw.githubusercontent.com/projeto-de-algoritmos-2024/D-C_LEETCODE_PROBLEMS/refs/heads/main/Images/53.png?raw=true"/></div>
 
